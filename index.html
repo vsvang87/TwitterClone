@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!--Font awesome cdn-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Twitter Clone</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Twitter Clone</h1>
+      </header>
+      <main class="main-container">
+        <div class="tweet-input-area">
+          <h1>🐦</h1>
+          <textarea
+            name="message"
+            id="tweet-input"
+            cols="30"
+            rows="10"
+            placeholder="What's on your mind?"
+          ></textarea>
+        </div>
+        <button id="tweet-btn">Tweet</button>
+        <div class="feed" id="feed"></div>
+      </main>
+    </div>
+    <script src="/js/main.js" type="module"></script>
+  </body>
+</html>
